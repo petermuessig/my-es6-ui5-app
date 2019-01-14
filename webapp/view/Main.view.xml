@@ -1,0 +1,18 @@
+<mvc:View controllerName="my.ui5app.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Text text="{i18n>appTitle}"></Text>
+					<html:br></html:br>
+					<Text text="{i18n>appDescription}"></Text>
+					<html:br></html:br>
+					<Text text="{foobar>/foo}"></Text>
+					<html:br></html:br>
+					<Text text="{foobar>/bar}"></Text>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

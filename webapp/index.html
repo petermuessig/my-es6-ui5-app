@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>my-ui5-app</title>
+
+		<script>
+			window["sap-ui-config"] = {
+				"async": false,
+				"theme": "sap_belize",
+				"resourceroots": {
+					"my.ui5app": "./"
+				},
+				"oninit": "module:sap/ui/core/ComponentSupport",
+				"xx-supportedLanguages": "en"
+			};
+		</script>
+
+		<script id="sap-ui-bootstrap" src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+
+	<body class="sapUiBody" id="content">
+		<div data-sap-ui-component data-name="my.ui5app" data-height="100%"></div>
+	</body>
+
+</html>
