@@ -1,5 +1,5 @@
 ---
-specVersion: '0.1'
+specVersion: '1.0'
 metadata:
   name: my-es6-ui5-app
 type: application
@@ -8,7 +8,7 @@ builder:
     - name: Transpile
       afterTask: replaceVersion
 ---
-specVersion: "0.1"
+specVersion: "1.0"
 kind: extension
 type: task
 metadata:

@@ -18,7 +18,7 @@ The following snippet shows what needs to be added to the [```ui5.yaml```](ui5.y
 
 ```yaml
 ---
-specVersion: '0.1'
+specVersion: '1.0'
 metadata:
   name: my-es6-ui5-app
 type: application
