@@ -27,7 +27,7 @@ builder:
     - name: Transpile
       afterTask: replaceVersion
 ---
-specVersion: "0.1"
+specVersion: "1.0"
 kind: extension
 type: task
 metadata:
