@@ -5,13 +5,13 @@ metadata:
 type: application
 builder:
     customTasks:
-    - name: transpileES6Code
+    - name: transpile
       afterTask: replaceVersion
 ---
 specVersion: "1.0"
 kind: extension
 type: task
 metadata:
-    name: transpileES6Code
+    name: transpile
 task:
-    path: lib/transpileES6Code.js
+    path: lib/transpile.js
