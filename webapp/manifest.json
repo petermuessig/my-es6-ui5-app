@@ -65,6 +65,7 @@
 			}
 		},
 		"resources": {
+			"js":[{"uri":"libs/regenerator/runtime.js"}],
 			"css": [{
 				"uri": "css/style.css"
 			}]

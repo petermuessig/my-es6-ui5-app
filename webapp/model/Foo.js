@@ -10,6 +10,9 @@ sap.ui.define([], function() {
 		prototypeMethod() {
 			return 'prototype:' + this.prop;
 		}
+		async demoAsyncMethod(){
+			return 'async;';
+		}
 	};
 
 });
