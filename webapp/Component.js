@@ -1,3 +1,7 @@
+// development mode: load the regenerator runtime synchronously
+if (!window.regeneratorRuntime) {
+	sap.ui.requireSync("my/ui5app/libs/regenerator/runtime");
+}
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
