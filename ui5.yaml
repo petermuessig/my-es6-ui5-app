@@ -1,12 +1,12 @@
 ---
 specVersion: '1.0'
 metadata:
-  name: ./**5-app
+  name: my-es6-ui5-app
 type: application
 builder:
   bundles:
   - bundleDefinition:
-      name: ./**/Component-preload.js
+      name: my/ui5app/Component-preload.js
       defaultFileTypes:
       - ".js"
       - ".json"
@@ -16,17 +16,18 @@ builder:
       sections:
       - mode: raw
         filters:
-        - ./**/regenerator-runtime/runtime.js
+        - my/ui5app/regenerator-runtime/runtime.js
       - mode: preload
         filters:
-        - ./**/Component.js
-        - ./**/manifest.json
-        - ./**/controller/**
-        - ./**/i18n/**
-        - ./**/model/**
-        - ./**/ui5fixes/**
-        - ./**/util/**
-        - ./**/view/**
+        - my/ui5app/Component.js
+        - my/ui5app/manifest.json
+        - my/ui5app/controller/**
+        - my/ui5app/i18n/**
+        - my/ui5app/model/**
+        - my/ui5app/ui5fixes/**
+        - my/ui5app/util/**
+        - my/ui5app/view/**
+        - my/ui5app/libs/**
         resolve: false
         sort: true
         declareModules: false
